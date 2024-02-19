@@ -4,7 +4,7 @@ Feature: AnimeGO
   So I can watch anime.
 
 
-  Scenario: Basic AnimeGO Search
+  Scenario: Basic AnimeGO Site
     Given the AnimeGO home page is displayed
-    When the user searches for "naruto"
-    Then results are shown for "naruto"
+    When the user press the button anime
+    Then results equal url anime page
